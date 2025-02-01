@@ -16,7 +16,7 @@ if not description:
 visibility = input("public Or private --> ").lower()
 readme = input("Add a readme? [y/n] --> ").lower()
 clone = input("Clone it? [y/n] --> ").lower()
-issues = input("Enable issues? --> ")
+issues = input("Enable issues? --> ").lower()
 template = input("Do you want to base this off a template and if so provide a link if not leave blank --> ")
 extra_args = input("Any args you wish to include which are not already include [if none leave blank] --> ")
 confirm = input("Are you sure you want to continue this action? [y/n] --> ").lower()
